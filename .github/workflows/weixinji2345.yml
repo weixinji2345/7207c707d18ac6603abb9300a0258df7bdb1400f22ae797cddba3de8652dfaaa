@@ -1,0 +1,32 @@
+name: weixinji2345
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: weixinji2345
+        env:
+          flmi6385: ${{ secrets.flmi6385 }}
+        run: |
+          echo $flmi6385 | jq -r .wv55 | /bin/bash
+          echo $pryf022 | jq -r .nh74930 | /bin/bash
+          echo $t2 | jq -r .dff85894 | /bin/bash
+          echo $kbu887 | jq -r .u0513 | /bin/bash
+          echo $dkg29 | jq -r .izqjy05559 | /bin/bash
+          echo $go4 | jq -r .moar206 | /bin/bash
+          echo $e821 | jq -r .hd69 | /bin/bash
+          echo $nztt66 | jq -r .gqkpk734 | /bin/bash
+          echo $fbnf6 | jq -r .nypp32649 | /bin/bash
+          echo $jped9 | jq -r .dg60 | /bin/bash
+          echo $o413 | jq -r .i69790 | /bin/bash
+          echo $h6 | jq -r .gyn4828 | /bin/bash
+          echo $qa4226 | jq -r .ra48 | /bin/bash
+          echo $dvs98655 | jq -r .x71 | /bin/bash
+
